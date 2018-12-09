@@ -2,7 +2,7 @@
 
 <header>
     <h1>Cool Instruments</h1>
-    <?php include("inc/menu.php"); ?>
+    <?php include "inc/menu.php"; ?>
     <a href="survey.php">Take our survey!</a>
 </header>
 <section>
@@ -15,6 +15,7 @@
     <h2>Operation</h2>
     <div>Important in theremin articulation is the use of the volume control antenna. Unlike touched instruments, where simply halting play or damping a resonator in the traditional sense silences the instrument, the thereminist must "play the rests, as well as the notes", as Clara Rockmore observed. If the pitch hand is moved between notes, without first lowering the volume hand, the result is a "swooping" sound akin to a swanee whistle or a glissando played on the violin. Small flutters of the pitch hand can be used to produce a vibrato effect. To produce distinct notes requires a pecking action with the volume hand to mute the volume while the pitch hand moves between positions. </div>
 </section>
+<div>Hear a performance <a href="https://www.youtube.com/watch?v=K6KbEnGnymk">here</a>!</div>
 <div>Learn more at the <a href="https://en.wikipedia.org/wiki/Theremin">Wikipedia</a> page!</div>
 </body>
 </html>

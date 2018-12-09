@@ -2,7 +2,7 @@
 
 <header>
     <h1>Cool Instruments</h1>
-    <?php include("inc/menu.php"); ?>
+    <?php include "inc/menu.php"; ?>
     <a href="survey.php">Take our survey!</a>
 </header>
 <section>
@@ -16,6 +16,7 @@
     <h2>Operation</h2>
     <div>In Franklin's treadle-operated version, 37 bowls were mounted horizontally on an iron spindle. The whole spindle turned by means of a foot pedal. The sound was produced by touching the rims of the bowls with water-moistened fingers. Rims were painted different colors according to the pitch of the note: A (dark blue), B (purple), C (red), D (orange), E (yellow), F (green), G (blue), and accidentals were marked in white. With the Franklin design, it is possible to play ten glasses simultaneously if desired, a technique that is very difficult if not impossible to execute using upright goblets. Franklin also advocated the use of a small amount of powdered chalk on the fingers, which under some acidic water conditions helped produce a clear tone. </div>
 </section>
+<div>Hear a performance <a href="https://www.youtube.com/watch?v=eQemvyyJ--g">here</a>!</div>
 <div>Learn more at the <a href="https://en.wikipedia.org/wiki/Glass_harmonica">Wikipedia</a> page!</div>
 </body>
 </html>

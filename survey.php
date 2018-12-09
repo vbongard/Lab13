@@ -1,11 +1,10 @@
 <?php include "inc/html.php"; ?>
-<!-- rudamentary table, can probably just use bootstrap for the real table, this is just for the content -->
 <form  action="afterSurvey.php" method="get">
     Full name: <input type="text" name="name"><br>
-    What's your favorite instrument? <input type="text" name="favorite"><br>
-    Do you play any instruments? <br><input type="radio" name="played" value="yes"> Yes <br><input type="radio" name="played" value="no"> No <br>
-    If you could learn any instrument, what would it be? <input type="text" name="learn"><br>
-    <input type="submit" value="Submit">
+    Have you heard of any of these instruments before? <input type="checkbox" name="heard"><br>
+    What was your favorite instrument of the three? <br><input type="radio" name="fav" value="theremin"> Theremin <br><input type="radio" name="fav" value="harmonica"> Glass Harmonica <br><input type="radio" name="fav" value="hydraulophone"> Hydraulophone <br>
+    What did you want to learn more about that wasn't in this website? <textarea rows="4" cols="50"></textarea>
+    <a href="afterSurvey.php">Submit</a>
 </form>
 </body>
 </html>

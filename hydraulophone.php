@@ -2,7 +2,7 @@
 
 <header>
     <h1>Cool Instruments</h1>
-    <?php include("inc/menu.php"); ?>
+    <?php include "inc/menu.php"; ?>
     <a href="survey.php">Take our survey!</a>
 </header>
 <section>
@@ -15,6 +15,7 @@
     <h2>Operation</h2>
     <div>Hydraulophones use water-flow sound-producing mechanisms. They have a user interface, which is blocking water jets to produce sound. Blocking flow through a finger hole directs the water instead to one or more of the sound-production mechanisms, or resulting changes in flow or pressure affect a separate sounding mechanism associated with each finger hole. Blocking water from coming out of a given hole produces a given note, which, in some embodiments, is electrically amplified by a hydrophone.</div>
 </section>
+<div>Hear a performance <a href="https://www.youtube.com/watch?v=tgU0OZkGhGI">here</a>!</div>
 <div>Learn more at the <a href="https://en.wikipedia.org/wiki/Hydraulophone">Wikipedia</a> page!</div>
 </body>
 </html>
