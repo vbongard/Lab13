@@ -23,6 +23,13 @@ footer {
 	margin-left: 65%;
 }
 
+.fullForm {
+	border: solid;
+	border-width: 1px;
+	padding: 3px;
+	text-align: center;
+}
+
 .belowImage {
 	margin-left: 15%;
 }
