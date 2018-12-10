@@ -6,6 +6,9 @@
       <title>Cool Instruments</title>
 
       <link rel="stylesheet" href="css/styles.css" >
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery.js"></script>
   </head>
 
 

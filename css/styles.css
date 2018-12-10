@@ -1,4 +1,6 @@
 
+/* BASE */
+
 p {
     margin-top: 50px;
     text-indent: 60px;
@@ -8,6 +10,7 @@ p {
 h1 {
     font-size: 40px;
     color: #333;
+    font-family: 'Share Tech', sans-serif;
 }
 
 body {
@@ -18,9 +21,43 @@ body {
     font-family: Raleway;
 }
 
-footer {
-	margin-top: 0;
-	margin-left: 65%;
+/* LAYOUT */
+
+.topLeft {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.topRight {
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
+
+.bottomLeft {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.bottomRight {
+    float: right;
+    width: 30%;
+    padding: 20px;
+}
+
+.subHeader {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.heroImage {
+    display: block;
+    width: 118%;
+    margin-left: -9%;
+    height: 550px;
 }
 
 .fullForm {
@@ -69,6 +106,22 @@ footer {
     margin-bottom: 40px;
 }
 
+ .textBlock {
+    padding-bottom: 20px;
+ }
+
+ .title {
+    padding-bottom: 10px;
+ }
+
+ .subTitle {
+    line-height: 1em;
+ }
+
+ /* STYLE */
+
+
+
 /* STATE */
 
 .menu li a:hover {
@@ -78,20 +131,6 @@ footer {
 .is-current { 
     background-color: #B4DCF5;
     color: #204861;
- }
-
- /* f-pattern */
-
- .textBlock {
- 	padding-bottom: 20px;
- }
-
- .title {
- 	padding-bottom: 10px;
- }
-
- .subTitle {
- 	line-height: 1em;
  }
 
 /* NAVIGATION (Excluding States) */
