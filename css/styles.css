@@ -8,14 +8,107 @@ p {
 h1 {
     font-size: 40px;
     color: #333;
-    padding: 10px;
-    padding-left: 15px;
 }
 
 body {
     margin: 0 auto;
     width: 92%;
     background-color: #E6E6FA;
-    font-size: 25px;
+    font-size: 18px;
     font-family: Raleway;
+}
+
+footer {
+	margin-top: 0;
+	margin-left: 65%;
+}
+
+.belowImage {
+	margin-left: 15%;
+}
+
+.surveyLink {
+	float: right;
+}
+
+.left_F {
+	width: 65%;
+	float: left;
+}
+
+.right_F {
+	width: 45%;
+	float: right;
+	margin-right: -10%;
+}
+
+.textBlock {
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+.subTitle {
+	margin-bottom: 5px;
+}
+
+.instrument {
+    display: inline-table;
+    margin: 0;
+    width: 75%;
+    height: 510px;
+    border: solid; 
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 40px;
+}
+
+/* STATE */
+
+.menu li a:hover {
+    background-color: #B4DCF5;
+}
+
+.is-current { 
+    background-color: #B4DCF5;
+    color: #204861;
+ }
+
+ /* f-pattern */
+
+ .textBlock {
+ 	padding-bottom: 20px;
+ }
+
+ .title {
+ 	padding-bottom: 10px;
+ }
+
+ .subTitle {
+ 	line-height: 1em;
+ }
+
+/* NAVIGATION (Excluding States) */
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #300;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
 }

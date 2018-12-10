@@ -1,4 +1,4 @@
-<nav>
+<nav class="menu">
   <ul>
     <li><a href="index.php">Home</a></li>
     <li><a href="harmonica.php">Glass Harmonica</a></li>
