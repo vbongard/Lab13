@@ -1,5 +1,5 @@
 <?php include "inc/html.php"; ?>
-
+<!-- These subpages would look good as F patterns, with summary,history,and operation on the side, with details on the right.-->
 <header>
     <h1>Cool Instruments</h1>
     <?php include "inc/menu.php"; ?>
