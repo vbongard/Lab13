@@ -1,0 +1,21 @@
+
+p {
+    margin-top: 50px;
+    text-indent: 60px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+body {
+    margin: 0 auto;
+    width: 92%;
+    background-color: #E6E6FA;
+    font-size: 25px;
+    font-family: Raleway;
+}
